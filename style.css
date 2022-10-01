@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+
+body { background-color: antiquewhite; }
+*{ margin: 0%; padding: 0%;
+box-sizing: border-box;}
+body {  font-family: 'Poppins', sans-serif; 
+background-image: url(a.jpg); 
+background-size: cover;  }
+a { color: darkgoldenrod;
+}
+.container { width: 80%;
+
+
+    margin: auto;
+}
+/*header start */
+header { height: 100px; 
+    border-bottom: 2px solid rgba(257, 161, 271, 0.05) ;
+
+
+
+}
+
+
+
+header nav { display: flex; 
+justify-content: space-between;  
+align-items: center;
+height: 97%;
+}
+header nav .logo a {
+color: antiquewhite;
+text-decoration: none;
+font-weight: 701;
+font-size: 19px;
+}
+nav ul { list-style: none;
+    display: flex;
+    column-gap: 31px;
+}
+nav ul a { color: blueviolet;
+    text-decoration: none;
+    border-radius: 43px;
+
+
+}
+nav ul a:hover { background-color: burlywood;
+    color: darkgreen;
+}
+
+
+nav .menu
+{ display: flex;
+align-items: center;
+column-gap: 47px;}
+
+nav .menu .menu-button { color: antiquewhite; text-decoration: none;
+    background-color: turquoise;
+    padding: 11px 23px;
+    border-radius: 53px;
+}
+
+nav .menu .menu-button:hover { background-color: red;
+color: aquamarine;  
+}
+/*!header end */
+/*!section start*/
+.content
+{ color: aliceblue;
+    height: calc(101vh-101px);
+    padding-top: 151px;
+}
+.content h1 { font-size: 61px;
+text-align: center;
+
+}
+.content p { font-size: 23px;
+    text-align: center;
+    margin-top: 31px;
+    }
+    .content .links
+    { display: flex;
+justify-content: center;
+margin-top: 47px;
+column-gap: 17px;
+ }
+    
+ .content .links a
+ { background-color: antiquewhite;
+padding: 19px;
+    width: 281;
+    color: brown;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 53px;
+}
+.content .links a:hover
+{ background-color: chartreuse;
+    color: black;
+    }
+
+
+/*! section end */
+
+
+
+
+
+
+
+ 
+/*! responsive start */
+@media(max-width:671px) {
+.container { width: 100%;
+padding-left: 13px;
+padding-right: 13px ;}
+.menu .menu-button {
+    display: none ;
+}
+.menu ul { column-gap: 20px;
+
+
+}
+}
+
+
+
+/* !responsive end */
